@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alvin Alfandy & Vira Salsabila — Wedding Invitation</title>
+  <meta name="description" content="Undangan pernikahan Alvin Alfandy & Vira Salsabila. Kami mengundang Anda untuk hadir dan berbagi kebahagiaan di hari istimewa kami." />
+  <meta name="theme-color" content="#FAF7F2" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== INTRO COVER ========== -->
+  <section id="intro-cover" aria-label="Cover undangan">
+    <div class="intro-bg" style="background-image: url('img/hero.png');"></div>
+    <div class="intro-content">
+      <p class="intro-label">The Wedding of</p>
+      <div class="intro-names">
+        <span class="name">Alvin Alfandy</span>
+        <span class="ampersand">&</span>
+        <span class="name">Vira Salsabila</span>
+      </div>
+      <p class="intro-date">00 · 00 · 0000</p>
+      <button class="btn-open" id="btn-open-invitation" type="button">
+        Buka Undangan
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- ========== MAIN CONTENT (hidden until opened) ========== -->
+  <main id="main-content" style="display: none;">
+
+    <!-- ========== HERO ========== -->
+    <section id="hero" aria-label="Hero">
+      <div class="hero-image" id="hero-bg" style="background-image: url('img/hero.png');"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="hero-label">The Wedding of</p>
+        <div class="hero-names">
+          <span class="name">Alvin Alfandy</span>
+          <span class="ampersand">&</span>
+          <span class="name">Vira Salsabila</span>
+        </div>
+        <p class="hero-date">Sabtu, 00 Bulan 0000</p>
+      </div>
+      <div class="hero-scroll-hint">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ========== OPENING ========== -->
+    <section id="opening" aria-label="Opening">
+      <div class="opening-container">
+        <div class="opening-photo-wrapper reveal">
+          <img src="img/opening.png" alt="Alvin & Vira" class="opening-photo" loading="lazy" />
+        </div>
+        <p class="opening-bismillah reveal reveal-delay-1">
+          Assalamu'alaikum Warahmatullahi Wabarakatuh
+        </p>
+        <hr class="separator reveal reveal-delay-2" />
+        <p class="opening-greeting reveal reveal-delay-3">
+          Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta'ala, kami bermaksud menyelenggarakan acara pernikahan kami. Tanpa mengurangi rasa hormat, kami mengundang Bapak/Ibu/Saudara/i untuk hadir dan memberikan doa restu kepada kami.
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== COUPLE PROFILES ========== -->
+    <section id="couple" aria-label="Mempelai">
+      <div class="couple-header reveal">
+        <p class="couple-header-label">The Couple</p>
+        <h1 class="couple-header-title">Mempelai</h1>
+      </div>
+      <div class="couple-container">
+
+        <!-- Groom -->
+        <div class="couple-card reveal">
+          <div class="couple-photo-container">
+            <div class="couple-photo-frame"></div>
+            <img src="img/groom.png" alt="Alvin Alfandy" class="couple-photo" loading="lazy" />
+          </div>
+          <h2 class="couple-name">Alvin Alfandy</h2>
+          <p class="couple-role">Mempelai Pria</p>
+          <hr class="separator" />
+          <p class="couple-parents">
+            Putra dari<br />
+            Bapak [Nama Ayah]<br />
+            & Ibu [Nama Ibu]
+          </p>
+        </div>
+
+        <div class="couple-divider"></div>
+
+        <!-- Bride -->
+        <div class="couple-card reveal reveal-delay-2">
+          <div class="couple-photo-container">
+            <div class="couple-photo-frame"></div>
+            <img src="img/bride.png" alt="Vira Salsabila" class="couple-photo" loading="lazy" />
+          </div>
+          <h2 class="couple-name">Vira Salsabila</h2>
+          <p class="couple-role">Mempelai Wanita</p>
+          <hr class="separator" />
+          <p class="couple-parents">
+            Putri dari<br />
+            Bapak [Nama Ayah]<br />
+            & Ibu [Nama Ibu]
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== QUOTE ========== -->
+    <section id="quote" aria-label="Ayat Al-Quran">
+      <div class="quote-bg" style="background-image: url('img/quote.png');"></div>
+      <div class="quote-overlay"></div>
+      <div class="quote-content reveal">
+        <div class="quote-icon">"</div>
+        <p class="quote-text">
+          Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan hidup dari jenismu sendiri supaya kamu memperoleh ketenangan hati padanya, dan dijadikan-Nya di antaramu rasa kasih dan sayang.
+        </p>
+        <hr class="separator separator-wide" style="background: rgba(201,169,110,0.5);" />
+        <p class="quote-source">QS. Ar-Rum: 21</p>
+      </div>
+    </section>
+
+    <!-- ========== EVENT DETAILS ========== -->
+    <section id="events" aria-label="Detail acara">
+      <div class="events-image-bg" style="background-image: url('img/event.png');"></div>
+      <div class="events-overlay"></div>
+      <div class="events-container">
+        <p class="events-label reveal">Save The Date</p>
+        <h2 class="events-title reveal reveal-delay-1">Jadwal Acara</h2>
+
+        <div class="events-grid">
+
+          <!-- Akad Nikah -->
+          <div class="event-card reveal">
+            <p class="event-card-label">Ceremony</p>
+            <h3 class="event-card-name">Akad Nikah</h3>
+            <hr class="separator" />
+            <div class="event-detail">
+              <svg class="event-detail-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              <div class="event-detail-text">
+                <strong>Sabtu, 00 Bulan 0000</strong>
+              </div>
+            </div>
+            <div class="event-detail">
+              <svg class="event-detail-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <div class="event-detail-text">
+                <strong>08:00 – 10:00 WIB</strong>
+              </div>
+            </div>
+            <div class="event-detail">
+              <svg class="event-detail-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div class="event-detail-text">
+                <strong>[Nama Venue]</strong>
+                [Alamat lengkap venue]
+              </div>
+            </div>
+          </div>
+
+          <!-- Resepsi -->
+          <div class="event-card reveal reveal-delay-2">
+            <p class="event-card-label">Reception</p>
+            <h3 class="event-card-name">Resepsi</h3>
+            <hr class="separator" />
+            <div class="event-detail">
+              <svg class="event-detail-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              <div class="event-detail-text">
+                <strong>Sabtu, 00 Bulan 0000</strong>
+              </div>
+            </div>
+            <div class="event-detail">
+              <svg class="event-detail-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <div class="event-detail-text">
+                <strong>11:00 – 14:00 WIB</strong>
+              </div>
+            </div>
+            <div class="event-detail">
+              <svg class="event-detail-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div class="event-detail-text">
+                <strong>[Nama Venue]</strong>
+                [Alamat lengkap venue]
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <p class="events-message reveal">
+          Kami tunggu kehadiran Bapak/Ibu/Saudara/i untuk berbagi kebahagiaan bersama pada hari istimewa kami.
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== GALLERY ========== -->
+    <section id="gallery" aria-label="Galeri foto">
+      <div class="gallery-header reveal">
+        <p class="gallery-label">Our Moments</p>
+        <h2 class="gallery-title">Galeri</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item reveal">
+          <img src="img/hero.png" alt="Momen kebersamaan 1" loading="lazy" />
+        </div>
+        <div class="gallery-item reveal reveal-delay-1">
+          <img src="img/opening.png" alt="Momen kebersamaan 2" loading="lazy" />
+        </div>
+        <div class="gallery-item reveal reveal-delay-2">
+          <img src="img/groom.png" alt="Momen kebersamaan 3" loading="lazy" />
+        </div>
+        <div class="gallery-item reveal reveal-delay-1">
+          <img src="img/bride.png" alt="Momen kebersamaan 4" loading="lazy" />
+        </div>
+        <div class="gallery-item reveal reveal-delay-2">
+          <img src="img/quote.png" alt="Momen kebersamaan 5" loading="lazy" />
+        </div>
+        <div class="gallery-item reveal reveal-delay-3">
+          <img src="img/event.png" alt="Momen kebersamaan 6" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== WEDDING GIFT ========== -->
+    <section id="gift" aria-label="Hadiah pernikahan">
+      <div class="gift-header reveal">
+        <p class="gift-label">Wedding Gift</p>
+        <h2 class="gift-title">Hadiah Pernikahan</h2>
+        <p class="gift-subtitle">
+          Doa restu Anda merupakan karunia yang sangat berarti bagi kami. Namun jika Anda ingin memberikan tanda kasih, kami menyediakan informasi berikut.
+        </p>
+      </div>
+      <div class="gift-container">
+
+        <!-- Bank Transfer -->
+        <div class="gift-card reveal">
+          <svg class="gift-card-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+          <p class="gift-card-type">Bank Transfer</p>
+          <h3 class="gift-card-bank">Bank BCA</h3>
+          <p class="gift-card-number" id="bank-number">1234567890</p>
+          <p class="gift-card-name">a.n. Alvin Alfandy</p>
+          <button class="btn-copy" id="btn-copy-bank" type="button" data-copy="1234567890">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            <span>Salin Nomor</span>
+          </button>
+        </div>
+
+        <!-- E-Wallet -->
+        <div class="gift-card reveal reveal-delay-2">
+          <svg class="gift-card-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"/><path d="M3 5v14a2 2 0 0 0 2 2h16v-5"/><path d="M18 12a2 2 0 0 0 0 4h4v-4z"/></svg>
+          <p class="gift-card-type">E-Wallet</p>
+          <h3 class="gift-card-bank">GoPay / OVO</h3>
+          <p class="gift-card-number" id="ewallet-number">081234567890</p>
+          <p class="gift-card-name">a.n. Vira Salsabila</p>
+          <button class="btn-copy" id="btn-copy-ewallet" type="button" data-copy="081234567890">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            <span>Salin Nomor</span>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== CLOSING ========== -->
+    <section id="closing" aria-label="Penutup">
+      <div class="closing-bg" style="background-image: url('img/opening.png');"></div>
+      <div class="closing-overlay"></div>
+      <div class="closing-content">
+        <p class="closing-label reveal">Thank You</p>
+        <div class="closing-names reveal reveal-delay-1">
+          Alvin Alfandy
+          <span class="ampersand">&</span>
+          Vira Salsabila
+        </div>
+        <hr class="separator separator-wide reveal reveal-delay-2" style="background: rgba(201,169,110,0.5);" />
+        <p class="closing-message reveal reveal-delay-3">
+          Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu. Atas kehadiran dan doa restunya, kami mengucapkan terima kasih.
+        </p>
+        <p class="closing-wassalam reveal reveal-delay-4">
+          Wassalamu'alaikum Warahmatullahi Wabarakatuh
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer id="footer" aria-label="Footer">
+      <p class="footer-names">Alvin Alfandy & Vira Salsabila</p>
+      <p class="footer-date">00 · 00 · 0000</p>
+      <hr class="separator" style="background: rgba(201,169,110,0.3);" />
+      <p class="footer-credit">Made with love</p>
+    </footer>
+
+  </main>
+
+  <!-- ========== FLOATING MUSIC PLAYER ========== -->
+  <div class="music-player" id="music-player" title="Play/Pause Music" role="button" tabindex="0" aria-label="Toggle music">
+    <div class="music-bars">
+      <div class="music-bar"></div>
+      <div class="music-bar"></div>
+      <div class="music-bar"></div>
+      <div class="music-bar"></div>
+    </div>
+  </div>
+
+  <!-- ========== LIGHTBOX ========== -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" type="button" aria-label="Close lightbox">✕</button>
+    <img src="" alt="Gallery preview" />
+  </div>
+
+  <!-- ========== AUDIO (placeholder — replace src with actual file) ========== -->
+  <audio id="bg-music" loop preload="auto">
+    <!-- <source src="music/background.mp3" type="audio/mpeg" /> -->
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
