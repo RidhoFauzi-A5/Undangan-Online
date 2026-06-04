@@ -1,6 +1,6 @@
 /* ============================================
    LUXURY WEDDING INVITATION — INTERACTIONS
-   Alvin Alfandy & Vira Salsabila
+   Ihsan Louise Firdaus & Arachu
    ============================================ */
 
 document.addEventListener('DOMContentLoaded', () => {
